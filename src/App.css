@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&family=Major+Mono+Display&display=swap');
+body{
+  background-image: url(https://w0.peakpx.com/wallpaper/663/735/HD-wallpaper-playstation-celebration-games-logo-play-ps4-station.jpg);
+  background-image: url(https://img.freepik.com/free-vector/colorful-futuristic-background-with-shiny-particles_52683-42650.jpg?w=1060&t=st=1677014555~exp=1677015155~hmac=93d4849bcc85f93235d3436b0266c1ad7bc98523fde1c03a4d35428d6394b53d);
+  background-size: cover;
+  background-position: right;
+}
+.App {
+  text-align: center;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 24px;
+}
+.status{
+  margin-bottom: 10px;
+}
+
+.game-board {
+  /* border: 1px solid black; */
+  box-shadow: 2px 5px 8px rgb(222, 199, 199);
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* background-color: #b5a3a3d7; */
+}
+
+.board-row {
+  display: flex;
+}
+
+.square {
+  /* background-color: #bbe1fa; */
+  /* background-image: url(https://img.freepik.com/free-vector/gradient-hexagonal-background_23-2148944164.jpg?w=1060&t=st=1677013221~exp=1677013821~hmac=b2efa1f1a8808ad0a68f024136ea3e7dc10f141ccbcb87f17b7945dff80f1f89); */
+  background-image: url(https://img.freepik.com/free-vector/colorful-futuristic-background-with-shiny-particles_52683-42650.jpg?w=1060&t=st=1677014555~exp=1677015155~hmac=93d4849bcc85f93235d3436b0266c1ad7bc98523fde1c03a4d35428d6394b53d);
+  /* background-size:cover; */
+  background-position:left;
+  border: 1px solid #999;
+  /* float: left; */
+  font-size: 56px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 34px;
+  height: 100px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 100px;
+  cursor: pointer;
+  /* cursor:cell; */
+  /* box-shadow: 2px 5px 8px 6px rgb(248, 221, 213); */
+
+}
+
+.square:focus {
+  outline: none;
+}
+.square.O {
+  /* background-color: #e67e22; */
+  background-color: #000000;
+  /* border: 1px solid #d35400; */
+  color:  rgba(255, 227, 255, 0.913);
+  box-shadow: 0px 0px 8px rgb(44, 135, 255);
+  text-shadow: -5px -2px 5px  rgb(185, 35, 175);
+  text-rendering: optimizeLegibility;
+  transform: translateZ(90px);
+  transition-duration: 1s;
+  animation-fill-mode:backwards;
+  /* animation: xo ease-in 1s; */
+  
+}
+
+.square.X {
+  background-color: #000000;
+  /* border: 1px solid #27ae60; */
+  color:  rgba(255, 227, 255, 0.913);
+    box-shadow: 0px 0px 8px rgb(255, 70, 37);
+  text-shadow: -5px -2px 5px  rgb(185, 35, 175);
+  transform: translateZ(90px);
+  transition-duration: 1s;
+  /* animation-fill-mode: forwards; */
+}
+.game-info {
+  margin-left: 20px;
+}
+.reset{
+  /* margin-top: 10px; */
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: 900;
+  background-color: rgb(18, 19, 20);
+  box-shadow: 2px 3px 10px rgb(245, 224, 224);
+  border: none;
+  /* color:  rgba(255, 227, 255, 0.913); */
+  color: rgb(18, 248, 18);
+  text-shadow: 5px 2px 5px  rgba(185, 35, 175, 0.669);
+  /* text-shadow: 5px 2px 5px  rgb(255, 41, 41); */
+  cursor: pointer;
+  border-radius: 50px;
+  border-top-left-radius: 1px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 1px;
+  font-family: 'Major Mono Display', monospace;
+  
+}
+.reset:hover{
+  color:  rgba(255, 227, 255, 0.913);
+}
+.reset:active {
+  /* box-shadow: 0 5px #666; */
+  transform: translateY(-10px);
+  transition-duration: 0.5s;
+  /* background-color: rgb(154, 255, 255); */
+}
+.winner{
+  color: ghostwhite;
+}
+.material-symbols-outlined{
+  color: rgb(245, 238, 230);
+  /* background-color: rgb(48, 47, 42); */
+  font-size: 50px;
+  padding-left: 5px;
+}
+.tic{
+  color:  rgba(255, 227, 255, 0.913);
+  text-shadow: -5px -2px 5px  rgb(185, 35, 175);
+  font-size: 2.5rem;
+  font-family: 'Cairo Play', cursive;
+  margin: 0px;
+  margin-top: 10px;
+  /* padding-left: 10px; */
+}
+@media only screen and (min-width:320px) and (max-width:640px) {
+  body{
+  background-image: url(https://img.freepik.com/free-vector/colorful-futuristic-background-with-shiny-particles_52683-42650.jpg?w=1060&t=st=1677014555~exp=1677015155~hmac=93d4849bcc85f93235d3436b0266c1ad7bc98523fde1c03a4d35428d6394b53d);
+    background-position:top;
+    background-size:cover;
+  }
+  .game-board{
+    padding-left: 56px;
+  box-shadow: none;
+  }
+  .tic{
+    margin-left: 50px;
+  }
+  
+}
