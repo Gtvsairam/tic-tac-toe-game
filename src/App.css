@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cairo+Play:wght@600&family=Major+Mono+Display&display=swap');
 body{
-  background-image: url(https://w0.peakpx.com/wallpaper/663/735/HD-wallpaper-playstation-celebration-games-logo-play-ps4-station.jpg);
-  background-image: url(https://img.freepik.com/free-vector/colorful-futuristic-background-with-shiny-particles_52683-42650.jpg?w=1060&t=st=1677014555~exp=1677015155~hmac=93d4849bcc85f93235d3436b0266c1ad7bc98523fde1c03a4d35428d6394b53d);
+  /* background-image: url(https://w0.peakpx.com/wallpaper/663/735/HD-wallpaper-playstation-celebration-games-logo-play-ps4-station.jpg); */
+  /* background-image: url(https://img.freepik.com/free-vector/colorful-futuristic-background-with-shiny-particles_52683-42650.jpg?w=1060&t=st=1677014555~exp=1677015155~hmac=93d4849bcc85f93235d3436b0266c1ad7bc98523fde1c03a4d35428d6394b53d); */
+  background-image: url('./components/Omq_GnTBrgmlOtaMQ1xpN-transformed.jpeg');
   background-size: cover;
   background-position: right;
 }
