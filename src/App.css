@@ -147,7 +147,7 @@ body{
 }
 @media only screen and (min-width:320px) and (max-width:640px) {
   body{
-  background-image: url(https://img.freepik.com/free-vector/colorful-futuristic-background-with-shiny-particles_52683-42650.jpg?w=1060&t=st=1677014555~exp=1677015155~hmac=93d4849bcc85f93235d3436b0266c1ad7bc98523fde1c03a4d35428d6394b53d);
+  background-image: url('./components/Omq_GnTBrgmlOtaMQ1xpN-transformed.jpeg');
     background-position:top;
     background-size:cover;
   }
